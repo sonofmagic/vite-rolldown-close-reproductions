@@ -1,0 +1,22 @@
+
+> vite-rolldown-close-reproductions@1.0.0 repro:rolldown
+> node --expose-gc closed-build.mjs rolldown
+
+{"engine":"rolldown","rounds":16,"node":"v24.22.1","platform":"darwin","arch":"arm64","packages":{"vite":{"version":"8.3.5","source":"node_modules/vite/package.json"},"rolldown":{"version":"1.2.16","source":"node_modules/rolldown/package.json"}}}
+{"round":1,"rss":85540864,"heapTotal":11862016,"heapUsed":6681328,"external":2202472,"arrayBuffers":137667,"globalHandlesBytes":14880}
+{"round":2,"rss":90767360,"heapTotal":11862016,"heapUsed":6706768,"external":2202512,"arrayBuffers":137667,"globalHandlesBytes":14880}
+{"round":3,"rss":93405184,"heapTotal":11862016,"heapUsed":6727224,"external":2202512,"arrayBuffers":137667,"globalHandlesBytes":14880}
+{"round":4,"rss":95305728,"heapTotal":11862016,"heapUsed":6728192,"external":2202512,"arrayBuffers":137667,"globalHandlesBytes":14880}
+{"round":5,"rss":98271232,"heapTotal":11862016,"heapUsed":6749280,"external":2202512,"arrayBuffers":137667,"globalHandlesBytes":14880}
+{"round":6,"rss":100073472,"heapTotal":11862016,"heapUsed":6751088,"external":2202512,"arrayBuffers":137667,"globalHandlesBytes":14880}
+{"round":7,"rss":101662720,"heapTotal":11862016,"heapUsed":6768328,"external":2202512,"arrayBuffers":137667,"globalHandlesBytes":14880}
+{"round":8,"rss":102449152,"heapTotal":11862016,"heapUsed":6776296,"external":2202512,"arrayBuffers":137667,"globalHandlesBytes":14880}
+{"round":9,"rss":104562688,"heapTotal":11862016,"heapUsed":6880888,"external":2202512,"arrayBuffers":137667,"globalHandlesBytes":14880}
+{"round":10,"rss":105562112,"heapTotal":12124160,"heapUsed":6899608,"external":2202512,"arrayBuffers":137667,"globalHandlesBytes":14880}
+{"round":11,"rss":106037248,"heapTotal":12124160,"heapUsed":6914584,"external":2202512,"arrayBuffers":137667,"globalHandlesBytes":14880}
+{"round":12,"rss":106692608,"heapTotal":12124160,"heapUsed":6917240,"external":2202512,"arrayBuffers":137667,"globalHandlesBytes":14880}
+{"round":13,"rss":107397120,"heapTotal":12124160,"heapUsed":6918864,"external":2202512,"arrayBuffers":137667,"globalHandlesBytes":14880}
+{"round":14,"rss":108052480,"heapTotal":12124160,"heapUsed":6919104,"external":2202512,"arrayBuffers":137667,"globalHandlesBytes":14880}
+{"round":15,"rss":108380160,"heapTotal":12124160,"heapUsed":6919344,"external":2202512,"arrayBuffers":137667,"globalHandlesBytes":14880}
+{"round":16,"rss":110018560,"heapTotal":12124160,"heapUsed":6919584,"external":2202512,"arrayBuffers":137667,"globalHandlesBytes":14880}
+{"engine":"rolldown","completedCloses":16,"controlAlive":false,"retained":[]}

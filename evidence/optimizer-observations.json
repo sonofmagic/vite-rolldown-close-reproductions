@@ -1,0 +1,16 @@
+[
+  {
+    "requestsIdleFirst": false,
+    "closeWaitedForScanner": true,
+    "cacheEntries": [
+      "deps_temp_5ef53b2f"
+    ]
+  },
+  {
+    "requestsIdleFirst": true,
+    "closeWaitedForScanner": true,
+    "cacheEntries": [
+      "deps_temp_41d3df06"
+    ]
+  }
+]

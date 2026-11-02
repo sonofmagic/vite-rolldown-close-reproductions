@@ -1,0 +1,15 @@
+{
+  "name": "vite-rolldown-close-reproductions",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "repro:optimizer": "node optimizer-close.mjs",
+    "repro:rolldown": "node --expose-gc closed-build.mjs rolldown",
+    "repro:vite": "node --expose-gc closed-build.mjs vite"
+  },
+  "devDependencies": {
+    "rolldown": "1.2.16",
+    "vite": "8.3.5"
+  }
+}

@@ -1,0 +1,29 @@
+
+> vite-rolldown-close-reproductions@1.0.0 repro:optimizer
+> node optimizer-close.mjs
+
+{"node":"v24.22.1","platform":"darwin","arch":"arm64","packages":{"vite":{"version":"8.3.5","source":"node_modules/vite/package.json"},"rolldown":{"version":"1.2.16","source":"node_modules/rolldown/package.json"}}}
+{"requestsIdleFirst":false,"closeWaitedForScanner":true,"cacheEntries":["deps_temp_5ef53b2f"]}
+{"requestsIdleFirst":true,"closeWaitedForScanner":true,"cacheEntries":["deps_temp_41d3df06"]}
+AssertionError [ERR_ASSERTION]: Cancelled scans left temporary optimizer caches after server.close()
++ actual - expected
+
+  [
++   [
++     'deps_temp_5ef53b2f'
++   ],
++   [
++     'deps_temp_41d3df06'
++   ]
+-   [],
+-   []
+  ]
+
+    at <reproduction>/optimizer-close.mjs:73:10 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: [Array],
+  expected: [Array],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}

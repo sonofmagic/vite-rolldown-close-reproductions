@@ -1,0 +1,63 @@
+
+> vite-rolldown-close-reproductions@1.0.0 repro:vite
+> node --expose-gc closed-build.mjs vite --snapshot
+
+{"engine":"vite","rounds":16,"node":"v24.22.1","platform":"darwin","arch":"arm64","packages":{"vite":{"version":"8.3.5","source":"node_modules/vite/package.json"},"rolldown":{"version":"1.2.16","source":"node_modules/rolldown/package.json"}}}
+{"round":1,"rss":117358592,"heapTotal":23134208,"heapUsed":12814504,"external":24172401,"arrayBuffers":229067,"globalHandlesBytes":18912}
+{"round":2,"rss":123715584,"heapTotal":23658496,"heapUsed":13104512,"external":24172441,"arrayBuffers":229067,"globalHandlesBytes":19584}
+{"round":3,"rss":129187840,"heapTotal":23658496,"heapUsed":13321312,"external":24172441,"arrayBuffers":229067,"globalHandlesBytes":20256}
+{"round":4,"rss":134316032,"heapTotal":32309248,"heapUsed":13489376,"external":24172441,"arrayBuffers":229067,"globalHandlesBytes":20928}
+{"round":5,"rss":138510336,"heapTotal":32833536,"heapUsed":13759576,"external":24172441,"arrayBuffers":229067,"globalHandlesBytes":21600}
+{"round":6,"rss":141393920,"heapTotal":32833536,"heapUsed":13925928,"external":24172441,"arrayBuffers":229067,"globalHandlesBytes":22272}
+{"round":7,"rss":144490496,"heapTotal":33095680,"heapUsed":14141416,"external":24172441,"arrayBuffers":229067,"globalHandlesBytes":22944}
+{"round":8,"rss":147668992,"heapTotal":33357824,"heapUsed":14392840,"external":24172441,"arrayBuffers":229067,"globalHandlesBytes":23616}
+{"round":9,"rss":151453696,"heapTotal":33882112,"heapUsed":14990264,"external":24172441,"arrayBuffers":229067,"globalHandlesBytes":24288}
+{"round":10,"rss":155172864,"heapTotal":34406400,"heapUsed":15177536,"external":24172441,"arrayBuffers":229067,"globalHandlesBytes":24960}
+{"round":11,"rss":158990336,"heapTotal":34668544,"heapUsed":15341712,"external":24172441,"arrayBuffers":229067,"globalHandlesBytes":25632}
+{"round":12,"rss":162381824,"heapTotal":34930688,"heapUsed":15520432,"external":24172441,"arrayBuffers":229067,"globalHandlesBytes":26304}
+{"round":13,"rss":164823040,"heapTotal":34930688,"heapUsed":15720928,"external":24172441,"arrayBuffers":229067,"globalHandlesBytes":26976}
+{"round":14,"rss":167182336,"heapTotal":35454976,"heapUsed":15866368,"external":24172441,"arrayBuffers":229067,"globalHandlesBytes":27648}
+{"round":15,"rss":169771008,"heapTotal":35717120,"heapUsed":16002312,"external":24172441,"arrayBuffers":229067,"globalHandlesBytes":28320}
+{"round":16,"rss":170967040,"heapTotal":35979264,"heapUsed":16148200,"external":24172441,"arrayBuffers":229067,"globalHandlesBytes":28992}
+{"engine":"vite","completedCloses":16,"controlAlive":false,"retained":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]}
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Completed builds still retain the callback or plugin closure markers
++ actual - expected
+
++ [
++   0,
++   1,
++   2,
++   3,
++   4,
++   5,
++   6,
++   7,
++   8,
++   9,
++   10,
++   11,
++   12,
++   13,
++   14,
++   15
++ ]
+- []
+
+    at <reproduction>/closed-build.mjs:101:8 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: [
+     0,  1,  2,  3,  4,  5,
+     6,  7,  8,  9, 10, 11,
+    12, 13, 14, 15
+  ],
+  expected: [],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.22.1

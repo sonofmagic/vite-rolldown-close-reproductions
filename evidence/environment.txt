@@ -1,0 +1,18 @@
+
+  System:
+    OS: macOS 27.0.1
+    CPU: (10) arm64 Apple M1 Pro
+    Memory: 112.08 MB / 16.00 GB
+    Shell: 5.9 - <installation path omitted>
+  Binaries:
+    Node: 24.22.1 - <installation path omitted>
+    npm: 11.19.1 - <installation path omitted>
+    pnpm: 12.16.1 - <installation path omitted>
+    bun: 1.1.45 - <installation path omitted>
+  Browsers:
+    Chrome: 156.0.8078.74
+    Safari: 27.0.1
+  npmPackages:
+    rolldown: 1.2.16 => 1.2.16 
+    vite: 8.3.5 => 8.3.5 
+

@@ -1,0 +1,176 @@
+{
+  "target": {
+    "node": 31222,
+    "id": 62445,
+    "type": "object",
+    "name": "BindingRenderedModule"
+  },
+  "path": [
+    {
+      "node": 0,
+      "id": 1,
+      "type": "synthetic",
+      "name": "",
+      "edge": {
+        "type": "element",
+        "name": 1
+      }
+    },
+    {
+      "node": 1,
+      "id": 3,
+      "type": "synthetic",
+      "name": "(GC roots)",
+      "edge": {
+        "type": "element",
+        "name": 10
+      }
+    },
+    {
+      "node": 11,
+      "id": 23,
+      "type": "synthetic",
+      "name": "(Global handles)",
+      "edge": {
+        "type": "internal",
+        "name": "82"
+      }
+    },
+    {
+      "node": 3588,
+      "id": 7177,
+      "type": "closure",
+      "name": "deferSyncScanData",
+      "edge": {
+        "type": "internal",
+        "name": "context"
+      }
+    },
+    {
+      "node": 184583,
+      "id": 369167,
+      "type": "object",
+      "name": "system / Context",
+      "edge": {
+        "type": "context",
+        "name": "inputOptions"
+      }
+    },
+    {
+      "node": 151939,
+      "id": 303879,
+      "type": "object",
+      "name": "Object",
+      "edge": {
+        "type": "property",
+        "name": "onLog"
+      }
+    },
+    {
+      "node": 186237,
+      "id": 372475,
+      "type": "closure",
+      "name": "onLog",
+      "edge": {
+        "type": "internal",
+        "name": "context"
+      }
+    },
+    {
+      "node": 185388,
+      "id": 370777,
+      "type": "object",
+      "name": "system / Context",
+      "edge": {
+        "type": "context",
+        "name": "chunkMetadataMap"
+      }
+    },
+    {
+      "node": 185381,
+      "id": 370763,
+      "type": "object",
+      "name": "ChunkMetadataMap",
+      "edge": {
+        "type": "property",
+        "name": "_inner"
+      }
+    },
+    {
+      "node": 185382,
+      "id": 370765,
+      "type": "object",
+      "name": "Map",
+      "edge": {
+        "type": "internal",
+        "name": "table"
+      }
+    },
+    {
+      "node": 185384,
+      "id": 370769,
+      "type": "array",
+      "name": "",
+      "edge": {
+        "type": "internal",
+        "name": "6"
+      }
+    },
+    {
+      "node": 185386,
+      "id": 370773,
+      "type": "object",
+      "name": "Object",
+      "edge": {
+        "type": "property",
+        "name": "__modules"
+      }
+    },
+    {
+      "node": 187567,
+      "id": 375135,
+      "type": "object",
+      "name": "Object",
+      "edge": {
+        "type": "property",
+        "name": "<fixture>/entry.js"
+      }
+    },
+    {
+      "node": 187572,
+      "id": 375145,
+      "type": "object",
+      "name": "Object",
+      "edge": {
+        "type": "property",
+        "name": "get renderedExports"
+      }
+    },
+    {
+      "node": 180294,
+      "id": 360589,
+      "type": "closure",
+      "name": "get renderedExports",
+      "edge": {
+        "type": "internal",
+        "name": "context"
+      }
+    },
+    {
+      "node": 187573,
+      "id": 375147,
+      "type": "object",
+      "name": "system / Context",
+      "edge": {
+        "type": "context",
+        "name": "bindingRenderedModule"
+      }
+    },
+    {
+      "node": 31222,
+      "id": 62445,
+      "type": "object",
+      "name": "BindingRenderedModule"
+    }
+  ]
+}
